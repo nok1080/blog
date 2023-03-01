@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title>Blog</title>
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1 class'title'>
-            {{ $posts->title }}
+            {{ $post->title }}
         </h1>
         <div class='content'>
                 <div class='content_post'>
